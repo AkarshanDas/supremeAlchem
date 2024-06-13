@@ -10,9 +10,6 @@ const About = () => {
       <section className="relative bg-black text-white pt-20 md:pt-48 mt-14 pb-16 text-center">
         <div className="absolute inset-0 bg-cover bg-center opacity-70" style={{ backgroundImage: "url('/bg1.jpg')" }}></div>
         <div className="relative max-w-6xl mx-auto px-4">
-          <div className="text-center">
-            
-          </div>
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mt-4">Who We Are</h1>
         </div>
       </section>
@@ -42,8 +39,12 @@ const About = () => {
                 </p>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <img src="/lab.jpg" alt="Supreme Alchem" className="w-full md:w-auto h-auto rounded-lg" />
-                <img src="/indus.jpg" alt="Second Image" className="w-full md:w-auto h-auto mt-8 md:mt-20 rounded-lg" />
+                <div className="relative w-full h-80 md:w-auto md:h-auto rounded-lg overflow-hidden">
+                  <img src="/lab.jpg" alt="Supreme Alchem" className="rounded-lg" />
+                </div>
+                <div className="relative w-full h-80 md:w-auto md:h-auto mt-8 md:mt-20 rounded-lg overflow-hidden">
+                  <img src="/indus.jpg" alt="Second Image" className="rounded-lg" />
+                </div>
               </div>
             </div>
           </div>

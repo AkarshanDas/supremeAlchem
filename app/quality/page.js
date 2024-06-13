@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
+import Image from 'next/image'; // Import next/image
 
 const Quality = () => {
   return (
@@ -11,8 +12,19 @@ const Quality = () => {
         <div className="absolute inset-0 flex justify-center items-center">
           <h1 className="text-white text-3xl md:text-5xl lg:text-6xl font-bold">Quality Control</h1>
         </div>
-        <div className="h-64 md:h-80 lg:h-96 bg-cover bg-center" style={{ backgroundImage: "url('/bg3.jpg')" }}>
+        <div className="h-64 md:h-80 lg:h-96 relative">
           {/* Background Image */}
+          <Image
+            src="/bg3.jpg"
+            alt="Background"
+            layout="fill"
+            objectFit="cover"
+            className="rounded-lg"
+          />
+          <div className="absolute inset-0 bg-black opacity-50 rounded-lg" />
+          <div className="absolute inset-0 flex justify-center items-center">
+            <h1 className="text-white text-3xl md:text-5xl lg:text-6xl font-bold">Quality Control</h1>
+          </div>
         </div>
       </div>
       
@@ -28,9 +40,15 @@ const Quality = () => {
         <div className="space-y-8">
           {/* Quality Control Assurance */}
           <div className="bg-[#B0C4DE] p-8 rounded-lg shadow-lg flex flex-col md:flex-row md:items-center md:flex-row-reverse h-auto md:h-64">
-            <div className="w-full md:w-1/3 h-48 md:h-full">
+            <div className="w-full md:w-1/3 h-48 md:h-full relative">
               <div className="w-full h-full bg-gray-300 flex items-center justify-center">
-                <img src="/qc1.jpg" alt="Quality Control" className="w-full h-full object-cover rounded-lg" />
+                <Image
+                  src="/qc1.jpg"
+                  alt="Quality Control"
+                  layout="fill"
+                  objectFit="cover"
+                  className="rounded-lg"
+                />
               </div>
             </div>
             <div className="w-full md:w-2/3 md:pr-8 flex items-center">
@@ -45,9 +63,15 @@ const Quality = () => {
 
           {/* State-of-the-Art Facilities */}
           <div className="bg-[#B0C4DE] p-8 rounded-lg shadow-lg flex flex-col md:flex-row md:items-center h-auto md:h-64">
-            <div className="w-full md:w-1/3 h-48 md:h-full">
+            <div className="w-full md:w-1/3 h-48 md:h-full relative">
               <div className="w-full h-full bg-gray-300 flex items-center justify-center">
-                <img src="qc3.jpg" alt="State-of-the-Art Facilities" className="w-full h-full object-cover rounded-lg" />
+                <Image
+                  src="/qc3.jpg"
+                  alt="State-of-the-Art Facilities"
+                  layout="fill"
+                  objectFit="cover"
+                  className="rounded-lg"
+                />
               </div>
             </div>
             <div className="w-full md:w-2/3 md:pl-8 flex items-center">
@@ -62,9 +86,15 @@ const Quality = () => {
 
           {/* Stringent Standards */}
           <div className="bg-[#B0C4DE] p-8 rounded-lg shadow-lg flex flex-col md:flex-row md:items-center md:flex-row-reverse h-auto md:h-64">
-            <div className="w-full md:w-1/3 h-48 md:h-full">
+            <div className="w-full md:w-1/3 h-48 md:h-full relative">
               <div className="w-full h-full bg-gray-300 flex items-center justify-center">
-                <img src="qc2.jpg" alt="Stringent Standards" className="w-full h-full object-cover rounded-lg" />
+                <Image
+                  src="/qc2.jpg"
+                  alt="Stringent Standards"
+                  layout="fill"
+                  objectFit="cover"
+                  className="rounded-lg"
+                />
               </div>
             </div>
             <div className="w-full md:w-2/3 md:pr-8 flex items-center">
@@ -79,9 +109,15 @@ const Quality = () => {
 
           {/* Comprehensive Testing Protocols */}
           <div className="bg-[#B0C4DE] p-8 rounded-lg shadow-lg flex flex-col md:flex-row md:items-center h-auto md:h-64">
-            <div className="w-full md:w-1/3 h-48 md:h-full">
+            <div className="w-full md:w-1/3 h-48 md:h-full relative">
               <div className="w-full h-full bg-gray-300 flex items-center justify-center">
-                <img src="/qc4.jpg" alt="Comprehensive Testing" className="w-full h-full object-cover rounded-lg" />
+                <Image
+                  src="/qc4.jpg"
+                  alt="Comprehensive Testing"
+                  layout="fill"
+                  objectFit="cover"
+                  className="rounded-lg"
+                />
               </div>
             </div>
             <div className="w-full md:w-2/3 md:pl-8 flex items-center">
@@ -96,9 +132,15 @@ const Quality = () => {
 
           {/* Packaging Excellence */}
           <div className="bg-[#B0C4DE] p-8 rounded-lg shadow-lg flex flex-col md:flex-row md:items-center md:flex-row-reverse h-auto md:h-64">
-            <div className="w-full md:w-1/3 h-48 md:h-full">
+            <div className="w-full md:w-1/3 h-48 md:h-full relative">
               <div className="w-full h-full bg-gray-300 flex items-center justify-center">
-                <img src="qc5.jpg" alt="Packaging Excellence" className="w-full h-full object-cover rounded-lg" />
+                <Image
+                  src="/qc5.jpg"
+                  alt="Packaging Excellence"
+                  layout="fill"
+                  objectFit="cover"
+                  className="rounded-lg"
+                />
               </div>
             </div>
             <div className="w-full md:w-2/3 md:pr-8 flex items-center">
@@ -113,9 +155,15 @@ const Quality = () => {
 
           {/* People-Centric Approach */}
           <div className="bg-[#B0C4DE] p-8 rounded-lg shadow-lg flex flex-col md:flex-row md:items-center h-auto md:h-64">
-            <div className="w-full md:w-1/3 h-48 md:h-full">
+            <div className="w-full md:w-1/3 h-48 md:h-full relative">
               <div className="w-full h-full bg-gray-300 flex items-center justify-center">
-                <img src="qc6.jpg" alt="People-Centric Approach" className="w-full h-full object-cover rounded-lg" />
+                <Image
+                  src="/qc6.jpg"
+                  alt="People-Centric Approach"
+                  layout="fill"
+                  objectFit="cover"
+                  className="rounded-lg"
+                />
               </div>
             </div>
             <div className="w-full md:w-2/3 md:pl-8 flex items-center">

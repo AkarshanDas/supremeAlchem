@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image'; // Import next/image
 
 const Products = () => {
   return (
@@ -11,11 +12,15 @@ const Products = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-7">
           {/* Card 1 */}
           <div className="relative bg-gray-800 text-white rounded-lg overflow-hidden">
-            <img
-              src="/prod1.jpg"
-              alt="Supply of Ethanol & industry Chemicals"
-              className="w-full h-48 object-cover opacity-75"
-            />
+            <div className="w-full h-48 relative">
+              <Image
+                src="/prod1.jpg"
+                alt="Supply of Ethanol & industry Chemicals"
+                layout="fill"
+                objectFit="cover"
+                className="opacity-75 rounded-t-lg"
+              />
+            </div>
             <div className="absolute inset-0 flex items-center justify-center">
               <h2 className="text-xl font-semibold text-center">Supply of Ethanol & Industry Chemicals</h2>
             </div>
@@ -25,11 +30,15 @@ const Products = () => {
           </div>
           {/* Card 2 */}
           <div className="relative bg-gray-800 text-white rounded-lg overflow-hidden">
-            <img
-              src="/prod2.jpg"
-              alt="Supply of Solvents"
-              className="w-full h-48 object-cover opacity-75"
-            />
+            <div className="w-full h-48 relative">
+              <Image
+                src="/prod2.jpg"
+                alt="Supply of Solvents"
+                layout="fill"
+                objectFit="cover"
+                className="opacity-75 rounded-t-lg"
+              />
+            </div>
             <div className="absolute inset-0 flex items-center justify-center">
               <h2 className="text-xl font-semibold text-center">Supply of Solvents</h2>
             </div>
@@ -39,11 +48,15 @@ const Products = () => {
           </div>
           {/* Card 3 */}
           <div className="relative bg-gray-800 text-white rounded-lg overflow-hidden">
-            <img
-              src="/prod3.jpg"
-              alt="Supply of Food Commodities"
-              className="w-full h-48 object-cover opacity-75"
-            />
+            <div className="w-full h-48 relative">
+              <Image
+                src="/prod3.jpg"
+                alt="Supply of Food Commodities"
+                layout="fill"
+                objectFit="cover"
+                className="opacity-75 rounded-t-lg"
+              />
+            </div>
             <div className="absolute inset-0 flex items-center justify-center">
               <h2 className="text-xl font-semibold text-center">Supply of Food Commodities</h2>
             </div>
@@ -53,11 +66,15 @@ const Products = () => {
           </div>
           {/* Card 4 */}
           <div className="relative bg-gray-800 text-white rounded-lg overflow-hidden">
-            <img
-              src="/prod4.jpg"
-              alt="Consultancy Services"
-              className="w-full h-48 object-cover opacity-75"
-            />
+            <div className="w-full h-48 relative">
+              <Image
+                src="/prod4.jpg"
+                alt="Consultancy Services"
+                layout="fill"
+                objectFit="cover"
+                className="opacity-75 rounded-t-lg"
+              />
+            </div>
             <div className="absolute inset-0 flex items-center justify-center">
               <h2 className="text-xl font-semibold text-center">Consultancy Services</h2>
             </div>

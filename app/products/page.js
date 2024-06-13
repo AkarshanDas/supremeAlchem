@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
+import Image from 'next/image'; // Import next/image
 
 const Products = () => {
   return (
@@ -11,8 +12,19 @@ const Products = () => {
         <div className="absolute inset-0 flex justify-center items-center">
           <h1 className="text-white text-3xl md:text-5xl lg:text-6xl font-bold">Products & Services</h1>
         </div>
-        <div className="h-64 md:h-80 lg:h-96 bg-cover bg-center" style={{ backgroundImage: "url('/indus.jpg')" }}>
+        <div className="h-64 md:h-80 lg:h-96 relative">
           {/* Image will be here */}
+          <Image
+            src="/indus.jpg"
+            alt="Background"
+            layout="fill"
+            objectFit="cover"
+            className="rounded-lg"
+          />
+          <div className="absolute inset-0 bg-black opacity-50 rounded-lg" />
+          <div className="absolute inset-0 flex justify-center items-center">
+            <h1 className="text-white text-3xl md:text-5xl lg:text-6xl font-bold">Products & Services</h1>
+          </div>
         </div>
       </div>
 
@@ -28,9 +40,15 @@ const Products = () => {
         <div className="space-y-8">
           {/* Ethanol & Industry Chemicals */}
           <div className="bg-[#B0C4DE] p-8 rounded-lg shadow-lg flex flex-col md:flex-row md:items-center md:flex-row-reverse h-auto md:h-64">
-            <div className="w-full md:w-1/3 h-48 md:h-full">
+            <div className="w-full md:w-1/3 h-48 md:h-full relative">
               <div className="w-full h-full bg-gray-300 flex items-center justify-center">
-                <img src="/prod1.jpg" alt="Ethanol" className="w-full h-full object-cover rounded-lg" />
+                <Image
+                  src="/prod1.jpg"
+                  alt="Ethanol & Industry Chemicals"
+                  layout="fill"
+                  objectFit="cover"
+                  className="rounded-lg"
+                />
               </div>
             </div>
             <div className="w-full md:w-2/3 md:pr-8 flex items-center">
@@ -45,9 +63,15 @@ const Products = () => {
 
           {/* Solvents */}
           <div className="bg-[#B0C4DE] p-8 rounded-lg shadow-lg flex flex-col md:flex-row md:items-center h-auto md:h-64">
-            <div className="w-full md:w-1/3 h-48 md:h-full">
+            <div className="w-full md:w-1/3 h-48 md:h-full relative">
               <div className="w-full h-full bg-gray-300 flex items-center justify-center">
-                <img src="/prod2.jpg" alt="Solvents" className="w-full h-full object-cover rounded-lg" />
+                <Image
+                  src="/prod2.jpg"
+                  alt="Solvents"
+                  layout="fill"
+                  objectFit="cover"
+                  className="rounded-lg"
+                />
               </div>
             </div>
             <div className="w-full md:w-2/3 md:pl-8 flex items-center">
@@ -62,9 +86,15 @@ const Products = () => {
 
           {/* Food Commodities */}
           <div className="bg-[#B0C4DE] p-8 rounded-lg shadow-lg flex flex-col md:flex-row md:items-center md:flex-row-reverse h-auto md:h-64">
-            <div className="w-full md:w-1/3 h-48 md:h-full">
+            <div className="w-full md:w-1/3 h-48 md:h-full relative">
               <div className="w-full h-full bg-gray-300 flex items-center justify-center">
-                <img src="/prod3.jpg" alt="Food Commodities" className="w-full h-full object-cover rounded-lg" />
+                <Image
+                  src="/prod3.jpg"
+                  alt="Food Commodities"
+                  layout="fill"
+                  objectFit="cover"
+                  className="rounded-lg"
+                />
               </div>
             </div>
             <div className="w-full md:w-2/3 md:pr-8 flex items-center">
@@ -79,9 +109,15 @@ const Products = () => {
 
           {/* Consultancy Services */}
           <div className="bg-[#B0C4DE] p-8 rounded-lg shadow-lg flex flex-col md:flex-row md:items-center h-auto md:h-64">
-            <div className="w-full md:w-1/3 h-48 md:h-full">
+            <div className="w-full md:w-1/3 h-48 md:h-full relative">
               <div className="w-full h-full bg-gray-300 flex items-center justify-center">
-                <img src="/prod4.jpg" alt="Consultancy Services" className="w-full h-full object-cover rounded-lg" />
+                <Image
+                  src="/prod4.jpg"
+                  alt="Consultancy Services"
+                  layout="fill"
+                  objectFit="cover"
+                  className="rounded-lg"
+                />
               </div>
             </div>
             <div className="w-full md:w-2/3 md:pl-8 flex items-center">

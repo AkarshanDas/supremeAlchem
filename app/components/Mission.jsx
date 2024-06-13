@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image'; // Import next/image
 
 const Mission = () => {
   return (
@@ -23,40 +24,49 @@ const Mission = () => {
         <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center">MISSIONS VALUES AND VISIONS</h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="mission-card bg-white rounded-lg shadow-lg p-6 mt-12">
-            <img
-              src="/mission.jpg"
-              alt="Steps to starting a business"
-              className="rounded-t-lg w-full h-48 object-cover"
-            />
+            <div className="rounded-t-lg relative w-full h-48">
+              <Image
+                src="/mission.jpg"
+                alt="Steps to starting a business"
+                layout="fill"
+                objectFit="cover"
+                className="rounded-t-lg"
+              />
+            </div>
             <h2 className="text-xl md:text-2xl text-center font-semibold mt-4">Our Mission</h2>
             <p className="mt-2 text-gray-600">
               Our mission is to excel as a global leader in ethanol, chemicals, solvents, and food trading. We're dedicated to delivering top-tier products, upholding integrity, sustainability, and social responsibility.
             </p>
-            
           </div>
           <div className="mission-card bg-white rounded-lg shadow-lg p-6 mt-12">
-            <img
-              src="/values.jpg"
-              alt="Start-Up Success"
-              className="rounded-t-lg w-full h-48 object-cover"
-            />
+            <div className="rounded-t-lg relative w-full h-48">
+              <Image
+                src="/values.jpg"
+                alt="Start-Up Success"
+                layout="fill"
+                objectFit="cover"
+                className="rounded-t-lg"
+              />
+            </div>
             <h2 className="text-xl md:text-2xl text-center font-semibold mt-4">Our Values</h2>
             <p className="mt-2 text-gray-600">
               At Supreme Alchem, we aim to lead in ethanol, chemical, and food trading. Our vision is to set industry standards for excellence and sustainability, guided by client needs and expert professionals.
             </p>
-            
           </div>
           <div className="mission-card bg-white rounded-lg shadow-lg p-6 mt-12">
-            <img
-              src="/vision.jpg"
-              alt="Make Extra Money"
-              className="rounded-t-lg w-full h-48 object-cover"
-            />
+            <div className="rounded-t-lg relative w-full h-48">
+              <Image
+                src="/vision.jpg"
+                alt="Make Extra Money"
+                layout="fill"
+                objectFit="cover"
+                className="rounded-t-lg"
+              />
+            </div>
             <h2 className="text-xl md:text-2xl text-center font-semibold mt-4">Our Vision</h2>
             <p className="mt-2 text-gray-600">
               We prioritize ethics, honesty, and teamwork in our approach. ♦ Our focus is on quality, efficiency, and competitiveness. ♦ We aim to satisfy customers, stakeholders, and partners.
             </p>
-            
           </div>
         </div>
       </div>
