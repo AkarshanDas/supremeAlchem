@@ -7,13 +7,13 @@ const About = () => {
     <div>
       <Navbar />
       {/* Hero Section */}
-      <section className="relative bg-[#DEB0C4] text-white pt-20 md:pt-48 pb-16 text-center ">
+      <section className="relative bg-black text-white pt-20 md:pt-48 mt-14 pb-16 text-center">
         <div className="absolute inset-0 bg-cover bg-center opacity-70" style={{ backgroundImage: "url('/bg1.jpg')" }}></div>
         <div className="relative max-w-6xl mx-auto px-4">
           <div className="text-center">
-            <p className="text-white"><a href="/">HOME</a> → About Us</p>
+            
           </div>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-4">Who We Are</h1>
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mt-4">Who We Are</h1>
         </div>
       </section>
 

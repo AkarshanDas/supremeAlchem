@@ -32,7 +32,7 @@ const Mission = () => {
             <p className="mt-2 text-gray-600">
               Our mission is to excel as a global leader in ethanol, chemicals, solvents, and food trading. We're dedicated to delivering top-tier products, upholding integrity, sustainability, and social responsibility.
             </p>
-            <a href="#" className="text-blue-500 mt-4 block">Read More &gt;</a>
+            
           </div>
           <div className="mission-card bg-white rounded-lg shadow-lg p-6 mt-12">
             <img
@@ -44,7 +44,7 @@ const Mission = () => {
             <p className="mt-2 text-gray-600">
               At Supreme Alchem, we aim to lead in ethanol, chemical, and food trading. Our vision is to set industry standards for excellence and sustainability, guided by client needs and expert professionals.
             </p>
-            <a href="#" className="text-blue-500 mt-4 block">Read More &gt;</a>
+            
           </div>
           <div className="mission-card bg-white rounded-lg shadow-lg p-6 mt-12">
             <img
@@ -56,7 +56,7 @@ const Mission = () => {
             <p className="mt-2 text-gray-600">
               We prioritize ethics, honesty, and teamwork in our approach. ♦ Our focus is on quality, efficiency, and competitiveness. ♦ We aim to satisfy customers, stakeholders, and partners.
             </p>
-            <a href="#" className="text-blue-500 mt-4 block">Read More &gt;</a>
+            
           </div>
         </div>
       </div>

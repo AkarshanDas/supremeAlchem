@@ -51,7 +51,7 @@ const Footer = () => {
       </div>
       <div className="bg-[#1b262c] text-white py-4 mt-8">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          Copyright © 2024 POMPOM GLOBAL F.Z.E.. All rights reserved.
+          Copyright © 2024 SUPREME ALCHEM All rights reserved.
         </div>
       </div>
     </footer>

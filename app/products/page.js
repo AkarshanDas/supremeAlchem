@@ -1,20 +1,21 @@
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import React from 'react';
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 
-const products = () => {
+const Products = () => {
   return (
     <div>
       <Navbar />
       {/* Top section with pink background and pipes */}
       <div className="bg-black relative mt-16">
         <div className="absolute inset-0 flex justify-center items-center">
-          <h1 className="text-white text-5xl font-bold">Products & Services</h1>
+          <h1 className="text-white text-3xl md:text-5xl lg:text-6xl font-bold">Products & Services</h1>
         </div>
-        <div className="h-64 bg-cover bg-center" style={{ backgroundImage: "url('/path-to-your-pipe-image.jpg')" }}>
+        <div className="h-64 md:h-80 lg:h-96 bg-cover bg-center" style={{ backgroundImage: "url('/indus.jpg')" }}>
           {/* Image will be here */}
         </div>
       </div>
-      
+
       <div className="container mx-auto px-4 py-16">
         {/* Breadcrumbs */}
         <div className="text-white text-lg mb-4">
@@ -26,78 +27,77 @@ const products = () => {
         {/* Cards Section */}
         <div className="space-y-8">
           {/* Ethanol & Industry Chemicals */}
-          <div className="bg-white p-8 rounded-lg shadow-lg">
-            <div className="flex flex-col md:flex-row items-center">
-              <div className="w-full md:w-1/2">
-                <div className="w-full h-48 bg-gray-300 flex items-center justify-center mb-4 md:mb-0">
-                  <img src="/prod1.jpg" alt="Ethanol" className="w-full h-full object-cover" />
-                </div>
+          <div className="bg-[#B0C4DE] p-8 rounded-lg shadow-lg flex flex-col md:flex-row md:items-center md:flex-row-reverse h-auto md:h-64">
+            <div className="w-full md:w-1/3 h-48 md:h-full">
+              <div className="w-full h-full bg-gray-300 flex items-center justify-center">
+                <img src="/prod1.jpg" alt="Ethanol" className="w-full h-full object-cover rounded-lg" />
               </div>
-              <div className="w-full md:w-1/2 md:pl-8">
-                <h2 className="text-2xl font-semibold">Supply of Ethanol & Industry Chemicals</h2>
+            </div>
+            <div className="w-full md:w-2/3 md:pr-8 flex items-center">
+              <div>
+                <h2 className="text-xl md:text-2xl font-semibold">Ethanol & Industry Chemicals</h2>
                 <p className="mt-4 text-gray-700">
-                  We source ethanol of all grades and industrial chemicals from India, Pakistan, and Brazil, and distribute these products globally through our extensive network. Our presence is particularly robust in West African markets.
+                  We source and supply various grades of ethanol and industrial chemicals from India, Pakistan, and Brazil. Our robust distribution network ensures global reach, with a particularly strong presence in West Africa.
                 </p>
               </div>
             </div>
           </div>
 
           {/* Solvents */}
-          <div className="bg-white p-8 rounded-lg shadow-lg">
-            <div className="flex flex-col md:flex-row items-center">
-              <div className="w-full md:w-1/2 md:order-2">
-                <div className="w-full h-48 bg-gray-300 flex items-center justify-center mb-4 md:mb-0">
-                  <img src="/prod2.jpg" alt="Solvents" className="w-full h-full object-cover" />
-                </div>
+          <div className="bg-[#B0C4DE] p-8 rounded-lg shadow-lg flex flex-col md:flex-row md:items-center h-auto md:h-64">
+            <div className="w-full md:w-1/3 h-48 md:h-full">
+              <div className="w-full h-full bg-gray-300 flex items-center justify-center">
+                <img src="/prod2.jpg" alt="Solvents" className="w-full h-full object-cover rounded-lg" />
               </div>
-              <div className="w-full md:w-1/2 md:pr-8">
-                <h2 className="text-2xl font-semibold">Supply of Solvents</h2>
+            </div>
+            <div className="w-full md:w-2/3 md:pl-8 flex items-center">
+              <div>
+                <h2 className="text-xl md:text-2xl font-semibold">Solvents</h2>
                 <p className="mt-4 text-gray-700">
-                  We specialize in sourcing a wide range of solvents, including those for food and industrial applications, from both India and international sources. These products are then distributed globally through our well-established distribution network. Our dominance in West African markets further solidifies our expertise and presence in the industry.
+                  Our expertise lies in sourcing a wide range of solvents for both food and industrial applications. These are procured from trusted global sources and distributed worldwide, with significant market strength in West Africa.
                 </p>
               </div>
             </div>
           </div>
 
           {/* Food Commodities */}
-          <div className="bg-white p-8 rounded-lg shadow-lg">
-            <div className="flex flex-col md:flex-row items-center">
-              <div className="w-full md:w-1/2">
-                <div className="w-full h-48 bg-gray-300 flex items-center justify-center mb-4 md:mb-0">
-                  <img src="/prod3.jpg" alt="Food Commodities" className="w-full h-full object-cover" />
-                </div>
+          <div className="bg-[#B0C4DE] p-8 rounded-lg shadow-lg flex flex-col md:flex-row md:items-center md:flex-row-reverse h-auto md:h-64">
+            <div className="w-full md:w-1/3 h-48 md:h-full">
+              <div className="w-full h-full bg-gray-300 flex items-center justify-center">
+                <img src="/prod3.jpg" alt="Food Commodities" className="w-full h-full object-cover rounded-lg" />
               </div>
-              <div className="w-full md:w-1/2 md:pl-8">
-                <h2 className="text-2xl font-semibold">Supply of Food Commodities</h2>
+            </div>
+            <div className="w-full md:w-2/3 md:pr-8 flex items-center">
+              <div>
+                <h2 className="text-xl md:text-2xl font-semibold">Food Commodities</h2>
                 <p className="mt-4 text-gray-700">
-                  We procure a variety of food commodities, such as sugar, salt, liquid glucose, and more, primarily from India and Brazil. These products are then exported to numerous destinations worldwide via our extensive distribution network. Our exceptional strength in West African markets underscores our capability and prominence in the industry.
+                  We procure and supply various food commodities, including sugar, salt, and liquid glucose, from India and Brazil. Our extensive distribution network enables us to export globally, with a strong foothold in West African markets.
                 </p>
               </div>
             </div>
           </div>
 
           {/* Consultancy Services */}
-          <div className="bg-white p-8 rounded-lg shadow-lg">
-            <div className="flex flex-col md:flex-row items-center">
-              <div className="w-full md:w-1/2 md:order-2">
-                <div className="w-full h-48 bg-gray-300 flex items-center justify-center mb-4 md:mb-0">
-                  <img src="/prod4.jpg" alt="Consultancy Services" className="w-full h-full object-cover" />
-                </div>
+          <div className="bg-[#B0C4DE] p-8 rounded-lg shadow-lg flex flex-col md:flex-row md:items-center h-auto md:h-64">
+            <div className="w-full md:w-1/3 h-48 md:h-full">
+              <div className="w-full h-full bg-gray-300 flex items-center justify-center">
+                <img src="/prod4.jpg" alt="Consultancy Services" className="w-full h-full object-cover rounded-lg" />
               </div>
-              <div className="w-full md:w-1/2 md:pr-8">
-                <h2 className="text-2xl font-semibold">Consultancy Services</h2>
+            </div>
+            <div className="w-full md:w-2/3 md:pl-8 flex items-center">
+              <div>
+                <h2 className="text-xl md:text-2xl font-semibold">Consultancy Services</h2>
                 <p className="mt-4 text-gray-700">
-                  In addition to our primary trading endeavors, we provide comprehensive support to clients interested in establishing ethanol or chemical plants and industries, with a particular emphasis on African markets. Our consultancy services are built upon a profound understanding of the industry, guaranteeing that our clients receive personalized guidance tailored to ensure the success of their ventures.
+                  Our consultancy services support clients in establishing ethanol or chemical plants, with a special focus on the African market. We provide expert guidance to ensure the successful execution of projects.
                 </p>
               </div>
             </div>
           </div>
         </div>
-
       </div>
       <Footer />
     </div>
   );
 };
 
-export default products;
+export default Products;
