@@ -5,17 +5,17 @@ import Image from 'next/image'; // Import next/image
 
 const Products = () => {
   return (
-    <div>
+    <div className="bg-[#124E66]">
       <Navbar />
-      {/* Top section with pink background and pipes */}
-      <div className="bg-black relative mt-16">
+      {/* Top section with background and pipes */}
+      <div className="relative mt-16">
         <div className="absolute inset-0 flex justify-center items-center">
-          <h1 className="text-white text-3xl md:text-5xl lg:text-6xl font-bold">Products & Services</h1>
+          <h1 className="text-white text-3xl md:text-5xl lg:text-6xl font-bold ">Products and Services</h1>
         </div>
         <div className="h-64 md:h-80 lg:h-96 relative">
-          {/* Image will be here */}
+          {/* Background Image */}
           <Image
-            src="/indus.jpg"
+            src="/bg3.jpg"
             alt="Background"
             layout="fill"
             objectFit="cover"
@@ -23,23 +23,19 @@ const Products = () => {
           />
           <div className="absolute inset-0 bg-black opacity-50 rounded-lg" />
           <div className="absolute inset-0 flex justify-center items-center">
-            <h1 className="text-white text-3xl md:text-5xl lg:text-6xl font-bold">Products & Services</h1>
+            <h1 className="text-white text-3xl md:text-5xl lg:text-6xl font-bold ">Products and Services</h1>
           </div>
         </div>
       </div>
-
-      <div className="container mx-auto px-4 py-16">
+      
+      <div className="container mx-auto px-6 py-16">
         {/* Breadcrumbs */}
-        <div className="text-white text-lg mb-4">
-          <span>HOME </span>
-          <span className="text-white/70">→</span>
-          <span> Products & Services</span>
-        </div>
+        
 
         {/* Cards Section */}
         <div className="space-y-8">
           {/* Ethanol & Industry Chemicals */}
-          <div className="bg-[#B0C4DE] p-8 rounded-lg shadow-lg flex flex-col md:flex-row md:items-center md:flex-row-reverse h-auto md:h-64">
+          <div className="bg-[#D3D9D4] p-8 rounded-lg shadow-lg flex flex-col md:flex-row md:items-center md:flex-row-reverse h-auto md:h-64">
             <div className="w-full md:w-1/3 h-48 md:h-full relative">
               <div className="w-full h-full bg-gray-300 flex items-center justify-center">
                 <Image
@@ -62,7 +58,7 @@ const Products = () => {
           </div>
 
           {/* Solvents */}
-          <div className="bg-[#B0C4DE] p-8 rounded-lg shadow-lg flex flex-col md:flex-row md:items-center h-auto md:h-64">
+          <div className="bg-[#D3D9D4] p-8 rounded-lg shadow-lg flex flex-col md:flex-row md:items-center h-auto md:h-64">
             <div className="w-full md:w-1/3 h-48 md:h-full relative">
               <div className="w-full h-full bg-gray-300 flex items-center justify-center">
                 <Image
@@ -85,7 +81,7 @@ const Products = () => {
           </div>
 
           {/* Food Commodities */}
-          <div className="bg-[#B0C4DE] p-8 rounded-lg shadow-lg flex flex-col md:flex-row md:items-center md:flex-row-reverse h-auto md:h-64">
+          <div className="bg-[#D3D9D4] p-8 rounded-lg shadow-lg flex flex-col md:flex-row md:items-center md:flex-row-reverse h-auto md:h-64">
             <div className="w-full md:w-1/3 h-48 md:h-full relative">
               <div className="w-full h-full bg-gray-300 flex items-center justify-center">
                 <Image
@@ -108,7 +104,7 @@ const Products = () => {
           </div>
 
           {/* Consultancy Services */}
-          <div className="bg-[#B0C4DE] p-8 rounded-lg shadow-lg flex flex-col md:flex-row md:items-center h-auto md:h-64">
+          <div className="bg-[#D3D9D4] p-8 rounded-lg shadow-lg flex flex-col md:flex-row md:items-center h-auto md:h-64">
             <div className="w-full md:w-1/3 h-48 md:h-full relative">
               <div className="w-full h-full bg-gray-300 flex items-center justify-center">
                 <Image

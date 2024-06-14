@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#B0C4DE] text-gray-800 py-8">
+    <footer className="bg-[#D3D9D4] text-gray-800 py-8">
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         <div>
           <img src="/supreme.png" alt="SUPREME ALCHEM" className="w-25 h-auto mt-[-46px] pr-4 " /> {/* Adjusted margin-top to move the logo upwards */}
@@ -48,11 +48,11 @@ const Footer = () => {
         </div>
       </div>
       <div className="relative mt-8 flex justify-end items-end">
-        <a href="#top" className="p-2 bg-gray-200 rounded-full shadow-lg">
-          <img src="/arrow.png" alt="Go to top" className="w-6 h-6" /> {/* Replace '/up-arrow.png' with your image URL */}
+        <a href="#top" className="p-2 bg-gray-200 rounded-full shadow-lg mb-5">
+          <img src="/arrow.png" alt="Go to top" className="w-6 h-6" /> 
         </a>
       </div>
-      <div className="bg-[#1b262c] text-white py-4">
+      <div className="bg-[#124E66] text-white py-4">
         <div className="max-w-6xl mx-auto px-4 text-center">
           Copyright © 2024 SUPREME ALCHEM All rights reserved.
         </div>
