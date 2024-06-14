@@ -19,6 +19,7 @@ const Products = () => {
                 layout="fill"
                 objectFit="cover"
                 className="opacity-75 rounded-t-lg"
+                loading="lazy"
               />
             </div>
             <div className="absolute inset-0 flex items-center justify-center">
@@ -37,6 +38,7 @@ const Products = () => {
                 layout="fill"
                 objectFit="cover"
                 className="opacity-75 rounded-t-lg"
+                loading="lazy"
               />
             </div>
             <div className="absolute inset-0 flex items-center justify-center">
@@ -55,6 +57,7 @@ const Products = () => {
                 layout="fill"
                 objectFit="cover"
                 className="opacity-75 rounded-t-lg"
+                loading="lazy"
               />
             </div>
             <div className="absolute inset-0 flex items-center justify-center">
@@ -73,6 +76,7 @@ const Products = () => {
                 layout="fill"
                 objectFit="cover"
                 className="opacity-75 rounded-t-lg"
+                loading="lazy"
               />
             </div>
             <div className="absolute inset-0 flex items-center justify-center">
