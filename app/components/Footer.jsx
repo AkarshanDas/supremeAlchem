@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-[#B0C4DE] text-gray-800 py-8">
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         <div>
-          <img src="/supreme.png" alt="POMPOM GLOBAL - F.Z.E" className="w-25 h-auto mt-[-46px] pr-4 " /> {/* Adjusted margin-top to move the logo upwards */}
+          <img src="/supreme.png" alt="SUPREME ALCHEM" className="w-25 h-auto mt-[-46px] pr-4 " /> {/* Adjusted margin-top to move the logo upwards */}
           <div className="flex space-x-4 mt-4">
             <a href="#" className="text-blue-600"><i className="fab fa-facebook-f"></i></a>
             <a href="#" className="text-black"><i className="fab fa-twitter"></i></a>
@@ -34,22 +34,25 @@ const Footer = () => {
         <div>
           <h3 className="font-semibold mb-2">Contact Us</h3>
           <p>
-            <strong>Add:</strong> POMPOM Global F.Z.E. Office C1 – 1F – SF1530 1st Floor, Ajman Free Zone C1 Building P.O.BOX 119582, Ajman, U.A.E
+            <strong>Add:</strong> 57 Cybercity Fourth Floor, Ebene Mews, Mauritius
           </p>
           <p>
-            <i className="fas fa-phone-alt"></i> +971 58 958 9271<br />
-            <i className="fas fa-phone-alt"></i> +971 50 450 2110<br />
-            <i className="fas fa-phone-alt"></i> +91 9871108023
+            <i className="fas fa-phone-alt"></i> +230 4899090
           </p>
           <p>
-            <i className="fas fa-envelope"></i> info@pompomglobalfze.com
+            <i className="fas fa-envelope"></i> info@supremeAlchem.com
           </p>
           <p>
-            <i className="fas fa-globe"></i> www.pompomglobalfze.com
+            <i className="fas fa-clock"></i> Monday - Friday: 9.00am to 5.00pm
           </p>
         </div>
       </div>
-      <div className="bg-[#1b262c] text-white py-4 mt-8">
+      <div className="relative mt-8 flex justify-end items-end">
+        <a href="#top" className="p-2 bg-gray-200 rounded-full shadow-lg">
+          <img src="/arrow.png" alt="Go to top" className="w-6 h-6" /> {/* Replace '/up-arrow.png' with your image URL */}
+        </a>
+      </div>
+      <div className="bg-[#1b262c] text-white py-4">
         <div className="max-w-6xl mx-auto px-4 text-center">
           Copyright © 2024 SUPREME ALCHEM All rights reserved.
         </div>

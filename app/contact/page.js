@@ -6,7 +6,8 @@ const Contact = () => {
   return (
     <>
       <Navbar />
-      <div className="relative bg-[#ef2d5e] text-white py-16 pt-32"> {/* Added padding to top to avoid overlap with Navbar */}
+      <div className="relative bg-[#ef2d5e] text-white py-16 pt-32">
+        {/* Added padding to top to avoid overlap with Navbar */}
         <div className="absolute inset-0 bg-black opacity-30"></div> {/* Dark overlay */}
         <div className="container mx-auto px-4 relative z-10">
           <h1 className="text-4xl font-bold text-center mb-8">Contact Us</h1>
@@ -17,24 +18,26 @@ const Contact = () => {
             <div className="flex items-center mb-4">
               <i className="fas fa-phone-alt mr-2 text-[#ef2d5e]"></i>
               <div>
-                <p>+971 58 958 9271</p>
-                <p>+971 50 450 2110</p>
-                <p>+91 9871108023</p>
+                <p>+230 4899090</p>
               </div>
             </div>
             <div className="flex items-center mb-4">
               <i className="fas fa-envelope mr-2 text-[#ef2d5e]"></i>
-              <p>info@pompomglobalfze.com</p>
+              <p>info@supremeAlchem.com</p>
             </div>
             <div className="flex items-center mb-4">
               <i className="fas fa-clock mr-2 text-[#ef2d5e]"></i>
               <p>Monday - Friday: 9.00am to 5.00pm</p>
             </div>
+            <div className="flex items-center mb-4">
+              <i className="fas fa-map-marker-alt mr-2 text-[#ef2d5e]"></i>
+              <p>57 Cybercity Fourth Floor, Ebene Mews, Mauritius</p>
+            </div>
           </div>
           <div className="w-full md:w-1/2 text-gray-800">
             <h2 className="text-2xl font-bold mb-4">Office Location</h2>
             <iframe
-              src="https://maps.google.com/maps?q=Ajman%20Free%20Zone&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3626.906192332079!2d55.44997837501304!3d25.39148282853232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef5f5c6e5b27ad1%3A0x65b4d0c29b3b3b09!2sAjman%20Free%20Zone!5e0!3m2!1sen!2s!4v1689876543210!5m2!1sen!2s"
               width="100%"
               height="300"
               frameBorder="0"
