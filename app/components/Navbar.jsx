@@ -67,7 +67,7 @@ const Navbar = () => {
         </div>
       </nav>
       <div
-        className={`bg-white shadow-lg rounded-lg absolute top-[120px] left-0 w-full z-40 transition-all duration-300 overflow-hidden ${
+        className={`bg-white shadow-lg rounded-lg fixed top-[100px] left-0 w-full z-40 transition-all duration-300 overflow-hidden ${
           isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
         }`}
       >
