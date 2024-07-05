@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="container mx-auto px-6 py-3 flex justify-between items-center w-full">
           <div className="flex items-center justify-center md:justify-start w-full md:w-auto">
             <img
-              src="/supreme.png"
+              src="/A.png"
               alt="Logo"
               className="h-32 md:h-40 w-auto mx-auto md:mx-0"
             />
