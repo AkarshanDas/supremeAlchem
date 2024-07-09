@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-[#D3D9D4] text-gray-800 py-8">
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         <div>
-          <img src="/supreme.png" alt="SUPREME ALCHEM" className="w-25 h-auto mt-[-46px] pr-4 " /> {/* Adjusted margin-top to move the logo upwards */}
+          <img src="/logo.png" alt="SUPREME ALCHEM" className="w-25 h-auto mt-[-46px] mr-5  pr-4 " /> {/* Adjusted margin-top to move the logo upwards */}
           <div className="flex space-x-4 mt-4">
             <a href="#" className="text-blue-600"><i className="fab fa-facebook-f"></i></a>
             <a href="#" className="text-black"><i className="fab fa-twitter"></i></a>
@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="relative mt-8 flex justify-end items-end">
-        <a href="#top" className="p-2 bg-gray-200 rounded-full shadow-lg mb-5">
+        <a href="#top" className="p-2 bg-gray-200 rounded-full shadow-lg mb-5 mr-3">
           <img src="/arrow.png" alt="Go to top" className="w-6 h-6" /> 
         </a>
       </div>

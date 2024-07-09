@@ -48,9 +48,7 @@ const Contact = () => {
             ></iframe>
           </div>
         </div>
-        <div className="fixed bottom-10 right-10 bg-[#ef2d5e] text-white p-3 rounded-full shadow-lg cursor-pointer">
-          <i className="fas fa-arrow-up"></i>
-        </div>
+        
       </div>
       <Footer />
     </>

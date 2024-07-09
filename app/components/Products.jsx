@@ -82,7 +82,7 @@ const Products = () => {
             <div className="absolute inset-0 flex items-center justify-center">
               <h2 className="text-xl font-semibold text-center">Consultancy Services</h2>
             </div>
-            <div className="absolute inset-0 bg-[#ebe8d4] flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-500">
+            <div className="absolute inset-0 bg-[#D3D9D4] flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-500">
               <a href="products" className="text-black font-semibold text-lg">See more</a>
             </div>
           </div>
