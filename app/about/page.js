@@ -23,7 +23,7 @@ const About = () => {
                 <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Welcome to</h2>
                 <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-red-300 mb-4">Supreme Alchem</h2>
                 <p className="mb-4 text-white">
-                  Supreme Alchem is a premier General Trading Company specializing in Ethanol, Industrial Chemicals, Solvents, and food commodities (Trade License No – 16684). Our commitment to excellence drives us to proactively meet diverse client needs.
+                  Supreme Alchem is a premier General Trading Company specializing in Ethanol, Industrial Chemicals, Solvents, and food commodities (Company registration no GBC 206732). Our commitment to excellence drives us to proactively meet diverse client needs.
                 </p>
                 <p className="mb-4 text-white">
                   Led by Mr. Debasish Sengupta, our founder and Managing Director with extensive experience in Ethanol, Chemical Business, and finance, we have a global presence. Beyond trading, we offer innovative consulting services and comprehensive market research solutions.
