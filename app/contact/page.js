@@ -31,11 +31,11 @@ const Contact = () => {
             </div>
             <div className="flex items-center justify-center mb-4">
               <img src="/mail.png" alt="Envelope" className="h-6 w-6 mr-2" />
-              <p className='text-white font-bold'>Email: corporate@supremeAlchem.com</p>
+              <p className='text-white font-bold'>Email: corporate@supremealchem.com</p>
             </div>
             <div className="flex items-center justify-center mb-4">
               <img src="/contact.png" alt="Phone" className="h-6 w-6 mr-2" />
-              <p className='text-white font -bold'>Telephone: +230 489909</p>
+              <p className='text-white font -bold'>Telephone: +230 4899090</p>
             </div>
             <div className="flex items-center justify-center mb-4">
               <img src="/web.png" alt="Globe" className="h-6 w-6 mr-2" />
