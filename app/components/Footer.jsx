@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center mb-2">
             <img src="/contact.png" alt="Phone" className="h-6 w-6 mr-2" />
-            <p className="mb-1">Telephone: +230 489909</p>
+            <p className="mb-1">Telephone: +230 4899090</p>
           </div>
           <div className="flex items-center mb-2">
             <p className="mb-1">Monday - Friday: 9.00am to 5.00pm</p>
