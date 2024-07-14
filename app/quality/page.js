@@ -8,7 +8,7 @@ const Quality = () => {
     <div className="bg-[#748D92]">
       <Navbar />
       {/* Top section with background and pipes */}
-      <div className="relative mt-16">
+      <div className="relative ">
         <div className="absolute inset-0 flex justify-center items-center">
           <h1 className="text-white text-3xl md:text-5xl lg:text-6xl font-bold ">Quality Control</h1>
         </div>

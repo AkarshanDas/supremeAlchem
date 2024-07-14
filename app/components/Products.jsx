@@ -52,7 +52,7 @@ const Products = () => {
           <div className="relative bg-gray-800 text-white rounded-lg overflow-hidden">
             <div className="w-full h-48 relative">
               <Image
-                src="/prod3.jpg"
+                src="/new2.jpg"
                 alt="Supply of Food Commodities"
                 layout="fill"
                 objectFit="cover"
@@ -71,7 +71,7 @@ const Products = () => {
           <div className="relative bg-gray-800 text-white rounded-lg overflow-hidden">
             <div className="w-full h-48 relative">
               <Image
-                src="/prod4.jpg"
+                src="/new1.jpg"
                 alt="Consultancy Services"
                 layout="fill"
                 objectFit="cover"

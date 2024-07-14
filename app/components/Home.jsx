@@ -3,7 +3,7 @@ import Image from 'next/image'; // Import next/image
 
 const Home = () => {
   return (
-    <div className="bg-[#124E66] text-white p-4 min-h-screen flex items-center justify-center mt-20">
+    <div className="bg-[#124E66] text-white p-4 min-h-screen flex items-center justify-center ">
       <div className="max-w-7xl mx-auto w-full">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
           {/* Text Section */}

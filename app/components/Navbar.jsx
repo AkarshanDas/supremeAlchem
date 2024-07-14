@@ -1,5 +1,4 @@
-"use client";
-
+"use client"
 import React, { useState } from "react";
 
 const Navbar = () => {
@@ -12,17 +11,23 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className="bg-[#D3D9D4] shadow-md fixed top-0 left-0 w-full z-50 flex justify-between items-center"
-        style={{ height: "105px" }} // Increased the height of the navbar
+        className="bg-[#D3D9D4] shadow-md  top-0 left-0 w-full z-50 flex justify-between items-center"
+        style={{ height: "118px" }} // Increased the height of the navbar
       >
         <div className="container mx-auto px-6 py-3 flex justify-between items-center w-full">
           <div className="flex items-center justify-center md:justify-start w-full md:w-auto">
-            <img
-              src="/logo.png"
-              alt="Logo"
-              className="h-40 md:h-32 w-auto mx-0 md:mx-0" // Adjusted the height to be larger
-            />
-            <span className="ml-1 mr-3 text-2xl font-bold text-black-100">Supreme Alchem</span>
+            <div className="flex flex-col items-center">
+              <img
+                src="/logo1.png"
+                alt="Logo"
+                className="h-20 md:h-20 w-auto" // Adjusted the height to be responsive
+              />
+              <img
+                src="/name.png"
+                alt="Company Image"
+                className="h-5 md:h-6 w-auto" // Adjusted size as needed
+              />
+            </div>
           </div>
           <div className="block md:hidden">
             <button

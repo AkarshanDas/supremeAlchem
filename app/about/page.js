@@ -7,7 +7,7 @@ const About = () => {
     <div>
       <Navbar />
       {/* Hero Section */}
-      <section className="relative bg-black text-white pt-20 md:pt-48 mt-14 pb-16 text-center">
+      <section className="relative bg-black text-white pt-20 md:pt-48  pb-16 text-center">
         <div className="absolute inset-0 bg-cover bg-center opacity-70" style={{ backgroundImage: "url('/bg1.jpg')" }}></div>
         <div className="relative max-w-6xl mx-auto px-4">
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mt-4">Who We Are</h1>
@@ -26,7 +26,7 @@ const About = () => {
                   Supreme Alchem is a premier General Trading Company specializing in Ethanol, Industrial Chemicals, Solvents, and food commodities (Company registration no GBC 206732). Our commitment to excellence drives us to proactively meet diverse client needs.
                 </p>
                 <p className="mb-4 text-white">
-                  Led by Mr. Debasish Sengupta, our founder and Managing Director with extensive experience in Ethanol, Chemical Business, and finance, we have a global presence. Beyond trading, we offer innovative consulting services and comprehensive market research solutions.
+                  We have a great team of young proffesionals with an extensive experience in Ethanol, Chemical Business, and finance, we have a global presence. Beyond trading, we offer innovative consulting services and comprehensive market research solutions.
                 </p>
                 <p className="mb-4 text-white">
                   We provide consultancy services for Ethanol and Chemical plant setups, particularly in African markets. Our insights ensure tailored advice for successful ventures.
