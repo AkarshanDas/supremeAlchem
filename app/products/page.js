@@ -85,7 +85,7 @@ const Products = () => {
             <div className="w-full md:w-1/3 h-48 md:h-full relative">
               <div className="w-full h-full bg-gray-300 flex items-center justify-center">
                 <Image
-                  src="/prod3.jpg"
+                  src="/new2.jpg"
                   alt="Food Commodities"
                   layout="fill"
                   objectFit="cover"
